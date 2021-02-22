@@ -202,7 +202,7 @@ def action():
     print '[\xe2\x9c\x93]\x1b[1;93m Prozess wurde abgeschlossen ....'
     print '[\xe2\x9c\x93]\x1b[1;92m gesamt OK/\x1b[1;96mCP : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93]\x1b[1;91m CP Datei wurde gespeichert : save/checkpoint.txt'
-    raw_input('\n[Drücken Sie enter, um zurück zu gehen]')
+    raw_input('\n[Press Enter To Go Back]')
     os.system('python2 .README.md')
     
     
