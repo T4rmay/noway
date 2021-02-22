@@ -56,10 +56,10 @@ logo ="""
 ███████║██║  ██║     ██║██║  ██╗██║  ██║
 ╚══════╝╚═╝  ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                     
  -----------------------------------------------------                                       
-\033[1;94mAuthor:Snapchat shakar_namo
-\033[1;94m  INSTAGRAM / 5h4ka
+\033[1;94m:INSTAGRAM / 5h4ka
+\033[1;94m  NUMMER HACKEN
 \033[1;92m COLOGNE
-\033[1;92mNote : 5H4KA         
+\033[1;92mCreate By : 5H4KA         
     """
 back = 0
 successful = []
