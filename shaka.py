@@ -129,7 +129,7 @@ def menu():
     os.system('clear')
     print logo
     print 42 * '\x1b[1;91m='
-    print '\x1b[1;94m[1]\x1b[1;92m GERMAN CRACK NUMBERS '
+    print '\x1b[1;94m[1]\x1b[1;92m GERMAN CRACK NUMMER '
     print 42 * '\x1b[1;91m='
     action()
 
@@ -199,10 +199,10 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print 42 * '\x1b[1;91m='
-    print '[\xe2\x9c\x93]\x1b[1;93m Process Has Been Completed ....'
-    print '[\xe2\x9c\x93]\x1b[1;92m Total OK/\x1b[1;96mCP : ' + str(len(oks)) + '/' + str(len(cpb))
-    print '[\xe2\x9c\x93]\x1b[1;91m CP File Has Been Saved : save/checkpoint.txt'
-    raw_input('\n[Press Enter To Go Back]')
+    print '[\xe2\x9c\x93]\x1b[1;93m Prozess wurde abgeschlossen ....'
+    print '[\xe2\x9c\x93]\x1b[1;92m gesamt OK/\x1b[1;96mCP : ' + str(len(oks)) + '/' + str(len(cpb))
+    print '[\xe2\x9c\x93]\x1b[1;91m CP Datei wurde gespeichert : save/checkpoint.txt'
+    raw_input('\n[Drücken Sie enter, um zurück zu gehen]')
     os.system('python2 .README.md')
     
     
