@@ -78,7 +78,7 @@ def menu():
     print logo
     print 42 * '\x1b[1;91m='
     print '\x1b[1;94m[1]\x1b[1;92m DEUTSCH NUMMER HACKEN'
-    print '\x2b[1;94m[1]\x1b[1;92m PRIVAET SHAKA'
+    print '\x1b[1;94m[2]\x1b[1;92m PRIVAET SHAKA'
     print 42 * '\x1b[1;91m='
     action()
 
